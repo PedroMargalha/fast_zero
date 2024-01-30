@@ -67,4 +67,3 @@ def delete_user(user_id: int, session: Session, current_user: CurrentUser):
     session.commit()
 
     return {'detail': 'User deleted'}
-
